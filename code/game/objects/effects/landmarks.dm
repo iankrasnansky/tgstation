@@ -283,6 +283,10 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	SSjob.latejoin_trackers += loc
 	return INITIALIZE_HINT_QDEL
 
+//me swarmys
+/obj/effect/landmark/swarmspawn
+	name = "swarmspawn"
+
 //space carps, magicarps, lone ops, slaughter demons, possibly revenants spawn here
 /obj/effect/landmark/carpspawn
 	name = "carpspawn"
@@ -303,7 +307,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	GLOB.xeno_spawn += loc
 	return INITIALIZE_HINT_QDEL
 
-//objects with the stationloving component (nuke disk) respawn here. 
+//objects with the stationloving component (nuke disk) respawn here.
 //also blobs that have their spawn forcemoved (running out of time when picking their spawn spot), santa and respawning devils
 /obj/effect/landmark/blobstart
 	name = "blobstart"
