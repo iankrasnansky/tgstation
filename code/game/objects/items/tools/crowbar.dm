@@ -8,7 +8,7 @@
 	usesound = 'sound/items/crowbar.ogg'
 	flags_1 = CONDUCT_1
 	slot_flags = ITEM_SLOT_BELT
-	force = 5
+	force = 6
 	throwforce = 7
 	w_class = WEIGHT_CLASS_SMALL
 	materials = list(MAT_METAL=50)
