@@ -287,6 +287,18 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 /obj/effect/landmark/swarmspawn
 	name = "swarmspawn"
 
+/obj/effect/landmark/swarmspawn2
+	name = "swarmspawn2"
+
+/obj/effect/landmark/swarmspawn3
+	name = "swarmspawn3"
+
+/obj/effect/landmark/swarmspawn4
+	name = "swarmspawn4"
+
+
+
+
 //space carps, magicarps, lone ops, slaughter demons, possibly revenants spawn here
 /obj/effect/landmark/carpspawn
 	name = "carpspawn"
