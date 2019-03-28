@@ -45,8 +45,8 @@ GLOBAL_LIST_INIT(AISwarmerCapsByType, list(/mob/living/simple_animal/hostile/swa
 	desc = "That name is a bit of a mouthful, but stop paying attention to your mouth they're eating everything!"
 	icon = 'icons/mob/swarmer.dmi'
 	icon_state = "swarmer_console"
-	health = 750
-	maxHealth = 750 //""""low-ish"""" HP because it's a passive boss, and the swarm itself is the real foe
+	health = 200
+	maxHealth = 200 //""""low-ish"""" HP because it's a passive boss, and the swarm itself is the real foe
 	mob_biotypes = list(MOB_ROBOTIC)
 	internal_type = /obj/item/gps/internal/swarmer_beacon
 	medal_type = BOSS_MEDAL_SWARMERS
